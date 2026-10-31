@@ -1,0 +1,41 @@
+{
+  "name": "ghost-in-the-machine",
+  "version": "1.0.0",
+  "description": "A haunted POSIX terminal, candlelit Día de los Muertos digital ofrenda, and computing ancestors séance powered 100% locally by open-source AI.",
+  "type": "module",
+  "bin": {
+    "necro-shell": "./bin/necro-shell.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cli": "node ./bin/necro-shell.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "open-source-ai",
+    "ghost-in-the-machine",
+    "dia-de-los-muertos",
+    "halloween",
+    "haunted-terminal",
+    "ofrenda",
+    "local-ai",
+    "wllama",
+    "ollama",
+    "gemma"
+  ],
+  "author": "Premmu <premmunot007@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/premmunot007-premmu/ghost-in-the-machine.git"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@wllama/wllama": "^3.8.1"
+  }
+}

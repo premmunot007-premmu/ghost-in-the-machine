@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NecroShell: Ghost in the Machine | Open-Source AI Terminal &amp; Digital Ofrenda</title>
+    <meta
+      name="description"
+      content="A haunted POSIX terminal, candlelit Día de los Muertos digital ofrenda, and computing ancestors séance powered 100% locally by open-source AI."
+    />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="theme-color" content="#06070a" />
+  </head>
+  <body>
+    <!-- TOP APPLICATION NAVIGATION -->
+    <header class="app-nav" id="app-nav">
+      <div class="nav-brand" id="nav-brand">
+        <span class="brand-logo" id="brand-logo">💀</span>
+        <div class="brand-text">
+          <h1>NECROSHELL</h1>
+          <span>Ghost in the Machine</span>
+        </div>
+      </div>
+
+      <nav class="nav-modes" id="nav-modes">
+        <button class="nav-btn active" id="mode-btn-terminal" data-mode="terminal">
+          💻 Haunted Terminal
+        </button>
+        <button class="nav-btn" id="mode-btn-ofrenda" data-mode="ofrenda">
+          🌼 Digital Ofrenda
+        </button>
+        <button class="nav-btn" id="mode-btn-seance" data-mode="seance">
+          🔮 Ancestor Séance
+        </button>
+      </nav>
+
+      <div class="nav-extra">
+        <button class="btn btn-ghost btn-sm" id="btn-toggle-sound" title="Toggle Spectral Audio">
+          🔊 Sound: Off
+        </button>
+        <button class="btn btn-purple btn-sm" id="btn-why-open">
+          🌐 Why Open AI?
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN VIEW CONTAINER (MODES ARE MOUNTED HERE) -->
+    <main id="app-view"></main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
